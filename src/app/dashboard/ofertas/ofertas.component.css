@@ -1,0 +1,14 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr)); /* Columnas para 5 productos por fila */
+    gap: 20px; /* Espacio entre los elementos */
+  }

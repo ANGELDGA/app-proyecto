@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+p {
+    font-size: 17px;
+}
+
+a:hover {
+    color: blue;
+}
+
+i {
+    font-size: 25px;
+}
+
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    
+    background-size: cover;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr)); /* Columnas para 5 productos por fila */
+    gap: 20px; /* Espacio entre los elementos */
+  }

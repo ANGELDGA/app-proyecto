@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+    <span>INTAR MUNDO TEC</span>
+    <span class="example-spacer"></span>
+    <button mat-button (click)="irHome()" >INICIO</button>
+    <button mat-button (click)="irList()" >PRODUCTOS</button>
+    <button mat-button (click)="irOfertas()" >OFERTAS</button>
+    <button mat-icon-button (click)="ingresar()"
+    class="example-icon" 
+    aria-label="Example icon-button with share icon">
+    <mat-icon>logout</mat-icon>
+  </button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,22 @@
+<mat-toolbar color="accent">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span (click)="irManten()">MANTENIMIENTO</span>
+    &nbsp;&nbsp;
+    <button mat-button (click)="irUsuarios()">USUARIOS</button>
+    &nbsp;&nbsp;
+    <button mat-button (click)="irProducto()">PRODUCTOS</button>
+    &nbsp;&nbsp;
+    <button mat-button (click)="irAnuncio()">ANUNCIOS</button>
+  
+    <span class="example-spacer"></span>
+    <button mat-icon-button
+    (click)="salir()"
+     class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>logout</mat-icon>
+    </button>
+  </mat-toolbar>
+    
+  <hr />
+  <router-outlet></router-outlet>

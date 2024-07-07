@@ -1,0 +1,92 @@
+a {
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+p {
+    font-size: 17px;
+}
+
+a:hover {
+    color: blue;
+}
+
+i {
+    font-size: 25px;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  
+  background-size: cover;
+}
+.anuncios-grid {
+  display: grid;
+  width: 120px;
+
+  gap: 20px; /* Espacio entre los elementos */
+}
+
+
+/* Estilos para la cuadrícula de productos */
+.banner-card {
+    margin-bottom: 20px; /* Espacio entre el banner y la lista de productos */
+  }
+  
+  .banner-card img {
+    max-width: 100%; /* Imagen ajustada al 100% del ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr)); /* Columnas para 5 productos por fila */
+    gap: 20px; /* Espacio entre los elementos */
+  }
+  
+  /* Estilos para cada tarjeta de producto */
+  .product-card {
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Para controlar el contenido que se desborda */
+  }
+  
+  /* Estilos para la imagen del producto dentro de la tarjeta */
+  .product-image img {
+    max-width: 100%; /* Imagen ajustada al 100% del ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 8px 8px 0 0; /* Bordes redondeados solo en la parte superior */
+  }
+  
+  /* Estilos para el carrusel de imágenes */
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button:first-of-type {
+    left: 10px;
+  }
+  
+  button:last-of-type {
+    right: 10px;
+  }
+  
+.carousel-item active img {
+  width: 1200px;
+  height: auto;
+}
+  
+
+
+
